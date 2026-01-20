@@ -9,14 +9,14 @@ if (require("electron-squirrel-startup")) {
 const createWindow = () => {
 	// Create the browser window.
 	const mainWindow = new BrowserWindow({
-		width: 800,
-		height: 600,
+		width: 500,
+		height: 560,
 		webPreferences: {
 			preload: path.join(__dirname, "preload.js"),
 		},
 		titleBarStyle: "hidden",
 		// expose window controls in Windows/Linux
-		...(process.platform !== "darwin" ? { titleBarOverlay: true } : {}),
+		frame: false,
 	});
 
 	// and load the index.html of the app.

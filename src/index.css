@@ -4,7 +4,13 @@ body {
 		sans-serif;
 	margin: auto;
 	max-width: 38rem;
-	padding: 2rem;
+	padding: 1rem 0 1rem 0;
+}
+main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 .drag-bar {
 	height: 20px;
@@ -12,6 +18,22 @@ body {
 	background-color: beige;
 	-webkit-app-region: drag;
 }
+.bye-cont {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 1rem;
+	width: 100%;
+}
 #bye-btn {
+	padding: 10px;
+	font-size: 1.2rem;
+	font-weight: bold;
 	background-color: aquamarine;
+}
+#shit-btn {
+	padding: 10px;
+	font-size: 1.2rem;
+	font-weight: bold;
+	background-color: crimson;
 }
