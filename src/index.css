@@ -1,0 +1,17 @@
+body {
+	font-family:
+		-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial,
+		sans-serif;
+	margin: auto;
+	max-width: 38rem;
+	padding: 2rem;
+}
+.drag-bar {
+	height: 20px;
+	width: 100%;
+	background-color: beige;
+	-webkit-app-region: drag;
+}
+#bye-btn {
+	background-color: aquamarine;
+}
